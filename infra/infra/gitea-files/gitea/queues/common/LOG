@@ -48,3 +48,19 @@
 20:29:42.852606 table@compaction committed F-1 S-571B Ke·0 D·20 T·1.936975ms
 20:29:42.852762 table@remove removed @9
 20:29:42.852846 table@remove removed @2
+=============== Dec 6, 2023 (CET) ===============
+21:35:51.127644 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+21:35:51.127773 version@stat F·[0 1] S·520B[0B 520B] Sc·[0.00 0.00]
+21:35:51.127783 db@open opening
+21:35:51.127819 journal@recovery F·1
+21:35:51.127912 journal@recovery recovering @10
+21:35:51.150872 memdb@flush created L0@13 N·100 S·1KiB "pus..\x00\x00\x00,d50":"rep..e-1,v51"
+21:35:51.151065 version@stat F·[1 1] S·2KiB[1KiB 520B] Sc·[0.25 0.00]
+21:35:51.152498 db@janitor F·4 G·0
+21:35:51.152519 db@open done T·24.727755ms
+21:36:42.702787 table@compaction L0·1 -> L1·1 S·2KiB Q·157
+21:36:42.703372 table@build created L1@16 N·24 S·522B "act..igh,v24":"web..low,v15"
+21:36:42.703407 version@stat F·[0 1] S·522B[0B 522B] Sc·[0.00 0.00]
+21:36:42.703623 table@compaction committed F-1 S-1KiB Ke·0 D·100 T·803.626µs
+21:36:42.703668 table@remove removed @13
+21:36:42.703696 table@remove removed @12
