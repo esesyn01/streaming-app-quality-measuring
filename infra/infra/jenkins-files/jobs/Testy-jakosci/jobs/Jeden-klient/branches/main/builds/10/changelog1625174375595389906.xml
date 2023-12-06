@@ -1,0 +1,32 @@
+commit 64ffe9622c85510cb09733c83fe54189494952ba
+tree bf78ad9042e95bf7eb15141d6cbaf1ed82af6007
+parent 10689d0687ac25f93aa930b168d548e1665284e5
+author wkawka <asinesak353@gmail.com> 2023-12-06 21:02:33 +0100
+committer wkawka <asinesak353@gmail.com> 2023-12-06 21:02:33 +0100
+
+    Update Jenkinsfile
+
+
+:100644 100644 c84e3e5eb706c94d76e458ba04148cfa69df6fac 4b61711db0a396ac7c6e785f1283b01a10f274fa M	Jenkinsfile
+commit 10689d0687ac25f93aa930b168d548e1665284e5
+tree d884586151ec02cd8c30d6842e3a8e1f0ae509ee
+parent 902026d046fd50918ba6d839b275a3a47d8f1b10
+author wkawka <asinesak353@gmail.com> 2023-12-06 21:02:00 +0100
+committer wkawka <asinesak353@gmail.com> 2023-12-06 21:02:00 +0100
+
+    Update script.robot
+
+
+:100644 100644 ee28c4909ca3ee18c1c3cb4e16742e81866e0c55 542fd7e66c43a61b9b5cf4b2b1429f713902ed72 M	script.robot
+commit 902026d046fd50918ba6d839b275a3a47d8f1b10
+tree 0d08d567241e9cf56d7905a3a90ebaa49e419530
+parent 54823c2af84abfaf16898ebe12af2b6cd6d2e7e4
+author wkawka <asinesak353@gmail.com> 2023-12-06 21:01:01 +0100
+committer wkawka <asinesak353@gmail.com> 2023-12-06 21:01:01 +0100
+
+    revert 54823c2af84abfaf16898ebe12af2b6cd6d2e7e4
+    
+    revert Update script.robot
+
+
+:100644 100644 5554b253ee2576ee3cb833d407cc8df3f0bbe356 ee28c4909ca3ee18c1c3cb4e16742e81866e0c55 M	script.robot

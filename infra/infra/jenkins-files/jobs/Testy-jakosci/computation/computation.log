@@ -1,13 +1,29 @@
 Started by user [8mha:////4LBNh5onsLSbpyuYzDAFYtN0+xynBxwdXnTxZ8iGTthyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL98uxEIAIABQdTQ8EAAAA=[0mWiktor Kawka
-[Wed Dec 06 15:52:23 UTC 2023] Starting organization scan...
-[Wed Dec 06 15:52:23 UTC 2023] Updating actions...
+[Wed Dec 06 19:24:23 UTC 2023] Starting organization scan...
+[Wed Dec 06 19:24:23 UTC 2023] Updating actions...
 Organization website: unspecified
-[Wed Dec 06 15:52:23 UTC 2023] Consulting Gitea Organization
+[Wed Dec 06 19:24:23 UTC 2023] Consulting Gitea Organization
 
   Checking repositories...
 
-    Ignoring empty repository [8mha:////4In7vy1JAtcGGV4PG/P1MDbx8nt6OjiT2LpCenJMILmcAAAAsB+LCAAAAAAAAP9djLENwjAQAJ8gqKgoESskjoREEZSKBlBEAwtY4RU7edmW/UHJGqwBDUMwDjsASsc1d9U93jAJHpaqvQRrktKaYAmTXe/QkzbN0TKu8/szv7lXBNEepoSmYlXAuPXEMC9qeZWCpKnEib021abzsPjbbQf/ZjAwigA6940ZQ6qYXSYE2VKSsoGzVZqm4oyB+7iWjQ2lFge8oIkb0mj4AzdgwSi1AAAA[0mJeden-klient
+    Checking repository [8mha:////4In7vy1JAtcGGV4PG/P1MDbx8nt6OjiT2LpCenJMILmcAAAAsB+LCAAAAAAAAP9djLENwjAQAJ8gqKgoESskjoREEZSKBlBEAwtY4RU7edmW/UHJGqwBDUMwDjsASsc1d9U93jAJHpaqvQRrktKaYAmTXe/QkzbN0TKu8/szv7lXBNEepoSmYlXAuPXEMC9qeZWCpKnEib021abzsPjbbQf/ZjAwigA6940ZQ6qYXSYE2VKSsoGzVZqm4oyB+7iWjQ2lFge8oIkb0mj4AzdgwSi1AAAA[0mJeden-klient
+      Proposing Jeden-klient
+Looking up repository Testy-jakosci/Jeden-klient
 
-  1 repositories were processed
-[Wed Dec 06 15:52:23 UTC 2023] Finished organization scan. Scan took 0.11 sec
+  Checking branches...
+
+    Checking branch [8mha:////4MRLfJbC3vSjm/RtWD5R4kL+B6bNUPY/fc0Z3wR+A+chAAAAux+LCAAAAAAAAP9djLsNwjAUAB/hMwAlYgXyIiFRBEVCogGEaGAB41ixE/Mc2S8I1mANaBiCcdgBUDquuavu8YZ+8DDWTR4cxdJRcFbFq2utvDVU7RyrWXZ/Zrf6FUG0hoFVVLDeQrfxlmG4LcVZoBVU4J69oWJ+8TD62y1b/2bQ0okALvU3egwLzVyniNZJYbULnE6TJMGDCnydlKJyQRrcqFzRpLJGEWPwEo9ekNR4EoY+fhV70cUAAAA=[0mmain
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
+
+    Ignoring empty repository [8mha:////4GK9B/IWqKvsCA6h5NiM0937tDW+lhTpJBSOgquzSzIcAAAArx+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgKmHQyygpKbDS18/JT07MycgvLrEyNjAw0A9JLS6p1M1KzM4vTs7UD3EO0C0r1g11CQAAfY79WrMAAAA=[0mTCP-vs-UDP
+
+    Ignoring empty repository [8mha:////4FB8tRK743HVvKINQtF2baaWhpRA1q6ibTarqLH1kzPHAAAAsh+LCAAAAAAAAP9djDEKwkAQANeIlhaW4heSCwoWkVQ2CsFGwfqIS+6S5S7cbTT5ht/Qxkf4HP+gks5pZqp5vGHkHcxVc/bWRLk13hJG265GR9pUe8u4Su/P9Fa/Agh2MCY0BasMho0jhmlWyosUJE0hDuy0Kdatg9nfbtP7N4OeQQDQ1t+YMCwUc50IQTaXpKznZBnHsTii5y4sZWV9rsVJI2FYkUbD9voBf6bVr7cAAAA=[0mWiele-klientow
+
+    Ignoring empty repository [8mha:////4AjBhHj9rJdLaq5m/V2TxKDNNQMZntDJKphV3yiha8kjAAAAsx+LCAAAAAAAAP9djDEKwkAQANeI1mIpfiG5gGIRSWWjEGwUrI945C5Z78LtRpJv+A1tfITP8Q8q6ZxmpprHG0bkYa6bMzkb5c6SQxVtu1p5NLbaO1ar9P5Mb/UrgGAHY1S2YJ3BsPHIMM1KeZUCpS3Egb2xxbr1MPvbbXr/ZtAzCADa+hsThqVmrhMh0OUStSNOFnEci6Mi7sJSVo5yI05GoQrZS0sXQ6X5ANzxfJC5AAAA[0mWiele-transmisji
+
+  4 repositories were processed
+[Wed Dec 06 19:24:23 UTC 2023] Finished organization scan. Scan took 0.25 sec
 Finished: SUCCESS

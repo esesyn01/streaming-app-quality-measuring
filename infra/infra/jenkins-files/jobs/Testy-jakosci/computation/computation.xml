@@ -19,8 +19,8 @@
     <completeBuild>true</completeBuild>
   </result>
   <durations>
-    <long>120</long>
+    <long>260</long>
   </durations>
-  <timestamp>1701877943284</timestamp>
-  <duration>120</duration>
+  <timestamp>1701890663537</timestamp>
+  <duration>260</duration>
 </jenkins.branch.OrganizationFolder_-OrganizationScan>

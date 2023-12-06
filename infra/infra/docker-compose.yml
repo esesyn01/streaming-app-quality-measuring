@@ -52,6 +52,8 @@ services:
       - ./jenkins-files:/var/jenkins_home
     depends_on:
       - gitea
+    extra_hosts:
+      - "gitea:172.19.1.10"
     
   db:
     image: mysql:latest
