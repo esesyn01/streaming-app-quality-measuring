@@ -1,0 +1,10 @@
+commit 8d610fb742c91e35b1fa5dbbe63483fcbac338d3
+tree 3588d48099faf0fa2acb375fe9a0ba2d07df4fbe
+parent 7702b609388df9da6a4abda33f96b2f6f62a55e5
+author wkawka <asinesak353@gmail.com> 2023-12-07 14:38:37 +0100
+committer wkawka <asinesak353@gmail.com> 2023-12-07 14:38:37 +0100
+
+    Update Jenkinsfile
+
+
+:100644 100644 851287ddce84d434e3d3f21728771ea539d12735 8aa54542667e67bca2a2bc0e2d708821b8b39b8c M	Jenkinsfile
