@@ -1,5 +1,5 @@
 Branch indexing
-[Thu Dec 07 20:28:04 UTC 2023] Starting branch indexing...
+[Thu Dec 07 23:02:09 UTC 2023] Starting branch indexing...
 Looking up repository Testy-jakosci/Wiele-klientow
 
   Checking branches...
@@ -7,6 +7,7 @@ Looking up repository Testy-jakosci/Wiele-klientow
     Checking branch [8mha:////4L8xAumfM/rBqCLhZpenuRhPOb4SjI7r4LoDuAjjLJrZAAAAvB+LCAAAAAAAAP9djEsOAUEQQMv4HMBSXMHUJBILYsOGRGxIrFvrTLcp1ZPu8ruGa7BxCMdxB2R23ua91Xu8oRkDdO1xFz2n2nP0ZNLZtTSBHBdLL2Ywvj/Ht/KVQDKHFhnOxS6gfgwk0F7s1UkhKc5xJcFxProE6PztppV/M6ioJQCX8hsNgYkVKYeI5LUi66MM+1mW4dpEufb2qvBRO9w4Q6ZXkDMs/owxaNwGxdriQTn+AHveRGvHAAAA[0mmain
       ‘Jenkinsfile’ found
     Met criteria
+Changes detected: main (0d46b465ab1dce0734c283883aca72b092c29af8 → c9a97a4ab37cf2e6278173673ec6fb95d0cb360d)
 Scheduled build for branch: main
 
   1 branches were processed
@@ -14,5 +15,5 @@ Scheduled build for branch: main
   Checking pull requests...
 
   0 pull requests were processed
-[Thu Dec 07 20:28:04 UTC 2023] Finished branch indexing. Indexing took 83 ms
+[Thu Dec 07 23:02:09 UTC 2023] Finished branch indexing. Indexing took 0.11 sec
 Finished: SUCCESS

@@ -1,8 +1,8 @@
 Started by user [8mha:////4LBNh5onsLSbpyuYzDAFYtN0+xynBxwdXnTxZ8iGTthyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL98uxEIAIABQdTQ8EAAAA=[0mWiktor Kawka
-[Thu Dec 07 20:28:04 UTC 2023] Starting organization scan...
-[Thu Dec 07 20:28:04 UTC 2023] Updating actions...
+[Thu Dec 07 23:02:09 UTC 2023] Starting organization scan...
+[Thu Dec 07 23:02:09 UTC 2023] Updating actions...
 Organization website: unspecified
-[Thu Dec 07 20:28:04 UTC 2023] Consulting Gitea Organization
+[Thu Dec 07 23:02:09 UTC 2023] Consulting Gitea Organization
 
   Checking repositories...
 
@@ -42,8 +42,18 @@ Looking up repository Testy-jakosci/Wiele-klientow
 
   1 branches were processed (query completed)
 
-    Ignoring empty repository [8mha:////4AjBhHj9rJdLaq5m/V2TxKDNNQMZntDJKphV3yiha8kjAAAAsx+LCAAAAAAAAP9djDEKwkAQANeI1mIpfiG5gGIRSWWjEGwUrI945C5Z78LtRpJv+A1tfITP8Q8q6ZxmpprHG0bkYa6bMzkb5c6SQxVtu1p5NLbaO1ar9P5Mb/UrgGAHY1S2YJ3BsPHIMM1KeZUCpS3Egb2xxbr1MPvbbXr/ZtAzCADa+hsThqVmrhMh0OUStSNOFnEci6Mi7sJSVo5yI05GoQrZS0sXQ6X5ANzxfJC5AAAA[0mWiele-transmisji
+    Checking repository [8mha:////4AjBhHj9rJdLaq5m/V2TxKDNNQMZntDJKphV3yiha8kjAAAAsx+LCAAAAAAAAP9djDEKwkAQANeI1mIpfiG5gGIRSWWjEGwUrI945C5Z78LtRpJv+A1tfITP8Q8q6ZxmpprHG0bkYa6bMzkb5c6SQxVtu1p5NLbaO1ar9P5Mb/UrgGAHY1S2YJ3BsPHIMM1KeZUCpS3Egb2xxbr1MPvbbXr/ZtAzCADa+hsThqVmrhMh0OUStSNOFnEci6Mi7sJSVo5yI05GoQrZS0sXQ6X5ANzxfJC5AAAA[0mWiele-transmisji
+      Proposing Wiele-transmisji
+Looking up repository Testy-jakosci/Wiele-transmisji
+
+  Checking branches...
+
+    Checking branch [8mha:////4MN+nWZSM2sZJSrk8VUkIt6z6X7V2PkRkem75yNsvJojAAAAvx+LCAAAAAAAAP9djL0NwjAQRo/wMwAlYgVykZAoQKmgACmiAYnaGCt2cOzId6BkDdaAhiEYhx0IouM13/ua93hDnwKM9eVE3sXSO/JWxeumUsEad956VrP0/kxv1SuCaAMDq1zOOoPuJViGYVaIq0ArXI47DsblizrA6C+3/O03Bj86EUBdtdJjWGnmao5ovRRWe+L5NEkS3CviZlKIsydp8GCUVRMOwlFpqDBIQeKxvVJjKYz7AE9c7tfJAAAA[0mmain
+      ‘Jenkinsfile’ found
+    Met criteria
+
+  1 branches were processed (query completed)
 
   4 repositories were processed
-[Thu Dec 07 20:28:04 UTC 2023] Finished organization scan. Scan took 0.33 sec
+[Thu Dec 07 23:02:09 UTC 2023] Finished organization scan. Scan took 0.76 sec
 Finished: SUCCESS

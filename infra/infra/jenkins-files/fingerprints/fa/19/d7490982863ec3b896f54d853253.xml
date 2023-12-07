@@ -5,6 +5,10 @@
   <fileName>Credential id=gitea-jenkins name=gitea-jenkins</fileName>
   <usages>
     <entry>
+      <string>Testy-jakosci/Wiele-transmisji/main</string>
+      <ranges>1-7</ranges>
+    </entry>
+    <entry>
       <string>Testy-jakosci/Jeden-klient/main</string>
       <ranges>1-3,5-36</ranges>
     </entry>
@@ -14,7 +18,7 @@
     </entry>
     <entry>
       <string>Testy-jakosci/Wiele-klientow/main</string>
-      <ranges>1-7</ranges>
+      <ranges>1-8</ranges>
     </entry>
   </usages>
   <facets>
@@ -24,19 +28,24 @@
       <timestamp0>1701975384414</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
-      <timestamp>1701980884358</timestamp>
-      <itemFullName>Testy-jakosci</itemFullName>
-      <timestamp0>1701980884292</timestamp0>
-    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
-    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
       <timestamp>1701981870108</timestamp>
       <itemFullName>Testy-jakosci/TCP-vs-RTP</itemFullName>
       <timestamp0>1701981804215</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
     <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
-      <timestamp>1701982174861</timestamp>
+      <timestamp>1701990129916</timestamp>
+      <itemFullName>Testy-jakosci</itemFullName>
+      <timestamp0>1701990129857</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
+      <timestamp>1701990154289</timestamp>
       <itemFullName>Testy-jakosci/Wiele-klientow</itemFullName>
-      <timestamp0>1701982134027</timestamp0>
+      <timestamp0>1701990143601</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@1309.v8835d63eb_d8a_">
+      <timestamp>1701991789228</timestamp>
+      <itemFullName>Testy-jakosci/Wiele-transmisji</itemFullName>
+      <timestamp0>1701991742615</timestamp0>
     </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
   </facets>
 </fingerprint>

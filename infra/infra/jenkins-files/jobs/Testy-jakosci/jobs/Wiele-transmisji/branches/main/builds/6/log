@@ -1,0 +1,438 @@
+Started by user [8mha:////4LBNh5onsLSbpyuYzDAFYtN0+xynBxwdXnTxZ8iGTthyAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYe/dLi1CL98uxEIAIABQdTQ8EAAAA=[0mWiktor Kawka
+Looking up repository Testy-jakosci/Wiele-transmisji
+Querying the current revision of branch main...
+Current revision of branch main is 3fab24a7b4c4d8969c1aafbc9f81679907ebb823
+Obtained Jenkinsfile from 3fab24a7b4c4d8969c1aafbc9f81679907ebb823
+[8mha:////4DWiteWVOVeZ8Z37pdKziJ0Ux5HDLIyzOPaYBDJSD2DuAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4MK7VHd/wXuCbr0fg1QfkG8sdKex3mZH4eWosHLtBER6AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4Dl44m1F2oYNyR7YkaTm0YeEp5TDk2hrZCjU1HNumBjKAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZB/eT83ILSktQi/fL8omwgBQA2lM2SxgAAAA==[0mworker in /jenkins-dir/workspace/ty-jakosci_Wiele-transmisji_main
+[8mha:////4Gu+xxQAGEjSVCK+eBcI5QT3wErVlm4aG2jiCvr+RX7BAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4EkBvUiScZHFzk3qScqQ98QxLNqDcP6zTiWeLnUiLpLCAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] stage
+[8mha:////4CmkJ2Hn66CRciuwmBjaCoETgMu12GYofojTIwRfWonfAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] { (Declarative: Checkout SCM)
+[8mha:////4Ft7w4UWpzNEn0Wjv0fefcG+k2BUONZBqSkYyJuQsuzkAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaWGsbAmNJ0AWEZb8zwLrbuWJvJp3kLiJlZNMMm+a93rDOic4UbLcG+wdZu14DKOti0+U+lugiXu6ck2YKRguzSSpM+cFJRUDS1gDKwEbgzpQdmgLbIVXD9UGhba9lFS/o4DGdQM8gYlqLiqVL8wJdvexy4Q/z18BzLEA29ce4gfg7KmOvAAAAA==[0m[Pipeline] checkout
+The recommended git tool is: NONE
+using credential gitea-jenkins
+Cloning the remote Git repository
+Cloning with configured refspecs honoured and without tags
+Avoid second fetch
+Checking out Revision 3fab24a7b4c4d8969c1aafbc9f81679907ebb823 (main)
+Commit message: "Add docker-compose.yml"
+Cloning repository http://gitea:3000/Testy-jakosci/Wiele-transmisji.git
+ > git init /jenkins-dir/workspace/ty-jakosci_Wiele-transmisji_main # timeout=10
+Fetching upstream changes from http://gitea:3000/Testy-jakosci/Wiele-transmisji.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+using GIT_ASKPASS to set credentials gitea-jenkins
+ > git fetch --no-tags --force --progress -- http://gitea:3000/Testy-jakosci/Wiele-transmisji.git +refs/heads/main:refs/remotes/origin/main # timeout=10
+ > git config remote.origin.url http://gitea:3000/Testy-jakosci/Wiele-transmisji.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/main:refs/remotes/origin/main # timeout=10
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3fab24a7b4c4d8969c1aafbc9f81679907ebb823 # timeout=10
+ > git rev-list --no-walk 3fab24a7b4c4d8969c1aafbc9f81679907ebb823 # timeout=10
+[Gitea] Notifying branch build status: PENDING Build started...
+[Gitea] Notified
+[8mha:////4CSXufdJmzeyrBvrMqEX8s7ymwX6qUuxlAGljABSXJ/bAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbGRNjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9Dg2gqvAAAAA==[0m[Pipeline] }
+[8mha:////4Lvhf7ZFDHVAJMFVogc/VE++kpuXPnW2qJRdH0pPUe7ZAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQRbWRhjZUtoPAGyiLDkfxZYdytP5NW8g8RNrJxkknnTvNcb1jnBiZLl3mDvMGvHYxhtXXyi1N8CTdzTlWvCTMFwaSZJnTkvKKkYWMIaWAnYGNSBskNbYCu8eqg2KLTtpaT6HQU0rhvgCUxUc1GpfGFOsLuPXSb8ef4KYI6xADvU7j9J+wGOvAAAAA==[0m[Pipeline] // stage
+[8mha:////4GncqLjh17GDl14nHGK6RxZ8cKDtD5BOKJIttREio4JZAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQDEh2iorXc8AITG+PEugv2haTiRXyNPxCIRMVWOyut5vmCMic4UPKycdgGzHWQXez91ORAqb1EGmRDZ1kTZopOajdosu44oyZ2MEcUsFCwdFhHygE9w0o15m6qaNBXJ07TtldQBHuDBwg1mdkk/sKYYH3tbSb8ef4KYOwYxI6h2G4+x/INtuQqUcEAAAA=[0m[Pipeline] withEnv
+[8mha:////4L5DHAc9/ZxU8AyJ9X6RL9F7ZZxLE5lIFEbhcfr1+t4bAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycoiUzoiJNerCCUITQtLo/zZJSSdOxNW4Ay2VmPBg2Zas93pDGQOcKBjuNHYWY2t570czJ54pdDdPmTu68pYwkte80bkhpc9rbShpWFUw2AjYamw9RYsmwU44+ZCVl2iqSwrzdhTArBrgCYWYyUmG9C1TgP19VJHwx/kLgKlPwOrDYvXyLD8BobDcwgAAAA==[0m[Pipeline] {
+[8mha:////4PuQBbqMPv2tN26kzYYZV1gT/mRExC+x4U5FZGCj09d+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZUVMrFEWThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbqhjgRMEwp7GzGFvLej+aObFMobt5yszRlbWEkbxmQmdBSp/XKihpWFWUsOGw1dh6ihZNgh138iFrL9HUlxTm7cihtGqAJxR8JicZ0rdMAfb3UUXCH+cvAKY+Qdk0ix2WZ/UBbwyqm8IAAAA=[0m[Pipeline] stage
+[8mha:////4MOf6VmVGO4QoDh0IgbXLeGdQs7W92kAEQUNedFIcW0HAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (Wygenerowanie ruchu)
+[8mha:////4IFV2Aajkx7e7qhdBADGFovRZBVUJLqeP40fHcm2GOo+AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] script
+[8mha:////4E377xN91arFYd5uI60pcMMC0x0PrGsDbuX2hQbtT+C8AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4LXFt5EoMPtRRRd7AXZp1ff3p9dejwipHLqGwC04tXcxAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] sh
++ export SERVER_IP=192.168.0.185
+[8mha:////4OZH/FGvWKjKGUoOJiKbIziR7XZ/eUzbI1ux7eQjwYzwAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAHz0lO8vgAAAA==[0m[Pipeline] sh
++ export CONTAINERS_DIR=esty-jakosci_wiele-klientow_main
+[8mha:////4CbV3q6eTd/OS2kAVLNXtQ+1SFZBGi4TL6gE0VjjdF2NAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCiQkRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYMpTb3af24Q08zss7vgAAAA==[0m[Pipeline] sh
++ docker ps
++ echo CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES b1e68721405a jenkins/jenkins:lts-jdk17 "/usr/bin/tini -- /u…" 40 minutes ago Up 18 minutes 0.0.0.0:50000->50000/tcp, :::50000->50000/tcp, 0.0.0.0:2140->8080/tcp, :::2140->8080/tcp jenkins 2682a961a6d4 gitea/gitea:latest "/usr/bin/entrypoint…" 40 minutes ago Up 18 minutes 0.0.0.0:3000->3000/tcp, :::3000->3000/tcp, 0.0.0.0:222->22/tcp, :::222->22/tcp gitea 0a2e9746b239 mysql:latest "docker-entrypoint.s…" 40 minutes ago Up 18 minutes 0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp infra-db-1
+CONTAINER ID IMAGE COMMAND CREATED STATUS PORTS NAMES b1e68721405a jenkins/jenkins:lts-jdk17 "/usr/bin/tini -- /u…" 40 minutes ago Up 18 minutes 0.0.0.0:50000->50000/tcp, :::50000->50000/tcp, 0.0.0.0:2140->8080/tcp, :::2140->8080/tcp jenkins 2682a961a6d4 gitea/gitea:latest "/usr/bin/entrypoint…" 40 minutes ago Up 18 minutes 0.0.0.0:3000->3000/tcp, :::3000->3000/tcp, 0.0.0.0:222->22/tcp, :::222->22/tcp gitea 0a2e9746b239 mysql:latest "docker-entrypoint.s…" 40 minutes ago Up 18 minutes 0.0.0.0:3306->3306/tcp, :::3306->3306/tcp, 33060/tcp infra-db-1
+[8mha:////4FRwC32bYNkyifQJUJOt7WAm48WOTdPW5H7fNhyE+nL3AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCgqEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAF9/9AivgAAAA==[0m[Pipeline] sh
++ docker compose up -d
+ Network ty-jakosci_wiele-transmisji_main_default  Creating
+ Network ty-jakosci_wiele-transmisji_main_default  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Creating
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Created
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Starting
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Started
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Started
+[8mha:////4CMvNp/AkwMIdqlr0PPGH9Q6KseIUdZiaAIdrI7xTcY7AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AFt+lTxvgAAAA==[0m[Pipeline] sh
++ chmod +x run_cvlc
+[8mha:////4K4llVHLxZulwCVup62NyXNJPoJerr/SD6wpe99D9h25AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKiIFEhqrRWGl5gYmOcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThwM9poGS7Gz6N1o8sKJw3B1PGHPF+yYIjuNrZ5aVrpZsOWkYUlRwkrARlPnOFoyCbailw9ZOUmmOqeQv6OA0qo7PKEQ2ZxkSF+YA+xuo4pMP89fAcw+QVkfcu1r/wEsy0/ovgAAAA==[0m[Pipeline] sh
++ ./run_cvlc
+unknown shorthand flag: 'v' in -vlc-client-9-1
+See 'docker exec --help'.
+unknown shorthand flag: 'v' in -vlc-client-6-1
+See 'docker exec --help'.
+[8mha:////4JDl2Lnc2JkqnpMGDr2Pm8EQIiMVNC80xSqhc/W/nsBxAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRkagQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrOtf+8AGg6KAavgAAAA==[0m[Pipeline] }
+[8mha:////4ARm6xfIVQWM6+HSjo5UYlYPhy5JH1EYx7sCYqKm40haAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdPtf28AGTC/umvgAAAA==[0m[Pipeline] // script
+[8mha:////4Fj1ImEyeDKoQj9zzEem7K2acSTquc8jo5DQ8CERorXsAAAApR+LCAAAAAAAAP9tjTsOwjAQRDdBFLSUHGIjPh1KRWu54QQmMcaJtRtsB6fiRFyNO2ARiYopRvOmea83LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrdIdd2/wGIrpolvgAAAA==[0m[Pipeline] }
+[8mha:////4Als6YAiI4lhKY3ZCaj/qaAwX2uX4O4QHff2kx9eoCnpAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMIRkagQVVorDS8w8WGcWHfGdkgqXsTX+AMWkajYYrWzzbzesI4BThyM6JEGS7GzwrvR5CUmDsPV8SR6voiOKbJD0eLUssZmwZYTwpKihJWEDVLnOFoyCbayVw9VOUWmOqeQv6OE0uo7PKGQ2ZxUSF+YA+xuo45MP89fAczeJyjrQ659/QG7TcGZvgAAAA==[0m[Pipeline] // stage
+[8mha:////4IuYbqTKRYW4qtXLErI0FQL3sEIcetqByEpBu+PlSaTZAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUZWBBTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQHkVNMxwgAAAA==[0m[Pipeline] stage
+[8mha:////4EJo8rE0NjFg4n5m4niJF4BO0UFW3UDQ5NTxP0EkhC46AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Uruchomienie Skryptu Robot Framework)
+[8mha:////4ADbNbc/Xx63P44WF/Y5k5hbpCvPy9Ge2lFB7nRGJma2AAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgEJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAnLfKUwgAAAA==[0m[Pipeline] script
+[8mha:////4GRd2tH+oCgc8qs4kHmtC5O1dkdgSBFOieVUIaqVBpH6AAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYgIhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD0QKVszCAAAA[0m[Pipeline] {
+[8mha:////4PmxGXvMGij0LfjLAaW56FeB0h/UYNKz5ZiM62JIv+/2AAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCoEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDREKHeHXPvt8AHN/bm5vgAAAA==[0m[Pipeline] sh
++ robot --variable ENV_SERVER_IP:192.168.0.185 script.robot
+==============================================================================
+Script                                                                        
+==============================================================================
+Uruchomienie Komend i Zapisanie Wyników :: Uruchamia serię komend ... | PASS |
+------------------------------------------------------------------------------
+Script                                                                | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  /jenkins-dir/workspace/ty-jakosci_Wiele-transmisji_main/output.xml
+Log:     /jenkins-dir/workspace/ty-jakosci_Wiele-transmisji_main/log.html
+Report:  /jenkins-dir/workspace/ty-jakosci_Wiele-transmisji_main/report.html
+[8mha:////4MVYg8B9OLX4uddZL2jrB6IZcfrJ/zX4qqxS3+k9RHFbAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIioEIoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcr9Ntfu8AFSjtgYvgAAAA==[0m[Pipeline] }
+[8mha:////4DWmSW9qU/usRvunw5ZbwesyVGBDfk/wPGI9b06TdesOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIihQYJUaW10vACExvjxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgsNc0WIqdRe9GkxdOHIar4wl7vmDHFNlpbPXUstLNgi0nDUuKElYCNpo6x9GSSbAVvXzIykky1TmF/B0FlFbd4QmFyOYkQ/rCHGB3G1Vk+nn+CmD2PkG5r3PVhw9qzEvpvgAAAA==[0m[Pipeline] // script
+[8mha:////4ACWKwZYdW8a34TIMdDdynGzeyGK1YuZW5NvphacqxwNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKRSEGBqNJaaXiBiQ/jxLoztkNS8SK+xh+wiETFFqudbeb1hnUMcOJgRI80WIqdFd6NJi8xcRiujifR80V0TJEdihanljU2C7acEJYUJawkbJA6x9GSSbCVvXqoyiky1TmF/B0llFbf4QmFzOakQvrCHGB3G3Vk+nn+CmD2PkFZ17n2hw9eAqiyvgAAAA==[0m[Pipeline] }
+[8mha:////4KZ7JUOdkWHAsLIvF7bxl/LNYmT8L1E0ql/HQmH7aIVOAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDu9rm2hw9wAqrYvgAAAA==[0m[Pipeline] // stage
+[8mha:////4JvTk7JFleWxWIx3P/+ivNTklOIo09Ph54fO5yqL/NguAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUFWJCTF2jLpwgNCEkjf4vSUo6cSKuxh0IVGLCg2Vbst7zBVXwcCSvmVU4GAy9YaObdE4skR8ujhKzdGY9YSCnWKdSR1K1S+0oKlhUlLDisFbYOwoGdYQNt+IuaidQ16fo83bgUBp5gwcUPJOj8PFbZg/b6yQD4Y/zFwDzGKFsmmy7/edZvQH+LTARwgAAAA==[0m[Pipeline] stage
+[8mha:////4LI4D4rFvJpLIQeT2baDv2l/8KqePkXFXnbvZ0oo2UlHAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QLAgpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD02yRsvCAAAA[0m[Pipeline] { (Usuniecie ruchu)
+[8mha:////4IhpdmcNdpFW/8cwomoH/eYp52rYYlhBAxWRnwkDIR+yAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0QIIBMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfADpB/iZwgAAAA==[0m[Pipeline] script
+[8mha:////4MEYHDlLhtLPu6zhnbNBp/SgAR4YazoINU5HEi8NWBIAAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0YAAJMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAD8aiCpwgAAAA==[0m[Pipeline] {
+[8mha:////4KSuvwnP48O5ocn2ziUo+sMQc970u6tx0W/4Yf0WS4sdAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJS0IAQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN65NpgK+AAAA[0m[Pipeline] sh
++ docker compose down
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Stopping
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-23-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-18-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-28-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-12-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-20-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-6-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-2-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-39-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-37-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-15-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-7-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-3-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-8-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-38-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-30-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-1-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-13-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-26-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-36-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-11-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-0-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-19-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-29-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-27-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-22-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-35-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-25-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-17-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-24-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-9-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-14-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-5-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-33-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-32-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-31-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-4-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-34-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-21-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-16-1  Removed
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Stopped
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Removing
+ Container ty-jakosci_wiele-transmisji_main-vlc-client-10-1  Removed
+ Network ty-jakosci_wiele-transmisji_main_default  Removing
+ Network ty-jakosci_wiele-transmisji_main_default  Removed
+[8mha:////4FPeUyogN56w4l4O+cLKvRkp1uhc1WHpdTlxzfV/Mw8pAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCBAUSSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wArmI/eL4AAAA=[0m[Pipeline] }
+[8mha:////4MTHtEa/+TQZ1g3qLvLcU+l0x5MzPQwlVMzfoLAVxdHBAAAAph+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiBBIFSkVrueEFJjHGiXUXbAen4kV8jT9gEYmKLVY728zrDcvgoWZvsNPUWwqNxcGNJi9M7Pur44QdX7BhCuw0Sp0kt/o0o+SoYU5RwkLASlPjOFgyEdaiUw9VOUWmOkefv6OA0rZ3eEIhsjkqH78wedjcxjYw/Tx/BTANQ4Ryv821O3wAmqzcI74AAAA=[0m[Pipeline] // script
+[8mha:////4BC7htXF+ohFuqGW9odU4oAqPIdf4ss7eu4bHi7J7uEJAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiAaJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw+i7k/SvgAAAA==[0m[Pipeline] }
+[8mha:////4M1ZcgFdbADaAfO4vtyiwAhckEXSwuX07hcLYauEPdZiAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOJSBCpEldZKwwtMbIwT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYPBXtNgKXYWvRtNXjhxGK6OJ+z5gh1TZKex1VPLSjcLtpw0LClKWAnYaOocR0smwVb08iErJ8lU5xTydxRQWnWHJxQim5MM6QtzgN1tVJHp5/krgNn7BOW+zlUfPr1sGoC+AAAA[0m[Pipeline] // stage
+[8mha:////4NNwMqXI7dZJ5vzxJ4FXyzS1SBdvEL5YitiuQ14o8H6wAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUlbohJtaoCycIaQhJo//bJKWdOBFX4w4EKjHhwbItWe/5gjIGOFIw3GnsLUZl+eAnkxOfKfRXTzN3dOGKMJLXvNVzS50+rbWlpGFVwWAjYKtReYoWTYKdcPIuKy/RVOcU8nYQwGw3wgMKkclJhvQtS4D9beoi4Y/zFwDLkIDVdbam+TzLN9XAyx/CAAAA[0m[Pipeline] stage
+[8mha:////4KW1AJ0HeKCT/cRGUnD8Fs46QLEO/BIP6oeuRoCShuEoAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycoh0KRNiYo2ycILQhJA0+r9NUtKJE3E17kBLJSY8WLYl673eUMUAJwqGOY2dxdha1vvRzIllCt3NU2aOrqwljOQ1EzoLUvq8VkFJw6qihA2HrcbWU7RoEuy4kw9Ze4mmvqQwb0cOpVUDPKHgMznJkL5lCrC/jyoS/jh/ATD1CcqmWeywPKsPIshjPcIAAAA=[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4C19HpKEaDzvoxsqqEzx6TKb7UbTZ6fd25xl2Xzmrpm4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSAA2iSmu54QUmNsaJdWdsh6TiRXyNPxCIRMUWq51t5vmCZYpw5GixNdQ5So3D4Hs7LRw4dhfPA7Z8xoYpsTcozSBZm3pGydnAnKKEhYCVocZzcmQzrEWr7qryimx1ynH6DgJKp2/wgEJM5qxi/sIYYXPtdWL6ef4KYAwZyu3uU/vwBj0vY+u+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4EBzsNfYPQCxhU+zsmy8OW8xxfSZ6F861dhF+S3MD+nZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgCgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN3weePK+AAAA[0m[Pipeline] archiveArtifacts
+Archiving artifacts
+[8mha:////4HEV98JBKFe/geIyxrY/O2vWuvhlae9rK6P3yLR4yYhFAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSgISEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGzAuB1vgAAAA==[0m[Pipeline] cleanWs
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] done
+[8mha:////4GNghIijTpHchmacqKcUa4SL5FlyuCMZE3tfyuR3JB7xAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOLSQIEQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7NxzZwG6+AAAA[0m[Pipeline] }
+[8mha:////4GfAUnKXPlKKBcdGyTzLQa9Jw0k9LCdJVI0DXtHSIuM+AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMKhCBWiSmul4QUmPowT687YDknFi/gaf8AiEhVbrHa2mdcb1jHAiYMRPdJgKXZWeDeavMTEYbg6nkTPF9ExRXYoWpxa1tgs2HJCWFKUsJKwQeocR0smwVb26qEqp8hU5xTyd5RQWn2HJxQym5MK6QtzgN1t1JHp5/krgNn7BOVhn6uuP/azv5i+AAAA[0m[Pipeline] // stage
+[8mha:////4IjTmkAITW19colAr/KLTyhb1PnTzLCzFkcuuNTWUkG4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPMJRCipERWu54QUmMcaOdWfsC0nFi/gaf8AiEhVbrHa2mdcb1jnBkZIV3uDgMHdOxDDassREabgGmoSni+gIMwUjlJkU9ea0oCI2sKSqYSVhY7ALlB1ahq30+qGboNE2Z07lO0ioXX+HJ1SymFkn/sKcYHcb+0z48/wVwBwjQ71vS7XtB5lg/l6+AAAA[0m[Pipeline] }
+[8mha:////4O+xyO7Go3W6Q/Dvs7gChgqRUHBG6xBxAQ2mbq1DGSBNAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICSFQoFa3lhheYxBgn1l2wHZyKF/E1/oBFJCq2WO1sM683LIOHmr3BTlNvKTQWBzeavDCx76+OE3Z8wYYpsNModZLc6tOMkqOGOUUJCwErTY3jYMlEWItOPVTlFJnqHH3+jgJK297hCYXI5qh8/MLkYXMb28D08/wVwDQMEcrDPtdu+wGhIm2vvgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4L7twmJTAV7rEikFkyq35YKOtULZ16SfqwXiUbscvjVCAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI91tBtvsAQxN0Dr0AAAA=[0m[Pipeline] }
+[8mha:////4LMpktNUuxwn0BrTWP1yWXSLvc0aUFPknXeKcyxRU+h3AAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIUauVY2WZoPEGEGAOZXUwWofJEXs07yMiMlb/67zXv9cYyRRw5OtVYaj2lyqsu9G56auDYXgMPquGLqpgSB6tKO5Rc29OMJYvFvCzHQmNlqQqcPDnBWjfmYYpgyBVniZM7aOS+vuOJTE9lMVG+MEZsbn2dmH6dvwGMXSfI9ztBtv0A8FowIr0AAAA=[0m[Pipeline] // node
+[8mha:////4BObpmeJy6fYfhLecLb2LwGK9ZHyJlpqne109bepSRWDAAAAox+LCAAAAAAAAP9tjbEOgjAURS8YB1dHP6IkJkzGybVh8Qsq1Fpo3sP2IUx+kb/mP0gkcfJO95zlvN5Yp4gjR6daS52nVHvVh8HNT40cu2vgUbV8UTVT4mBVZceKG3tasGKxWJblWGlsLNWBkycn2OrWPEwRDLniLHF2B43cN3c8kem5LCbKF6aI3W1oEtOv8zeAqe8FeVkKsv0H1kNXaL0AAAA=[0m[Pipeline] End of Pipeline
+[Gitea] Notifying branch build status: SUCCESS This commit looks good
+[Gitea] Notified
+Finished: SUCCESS

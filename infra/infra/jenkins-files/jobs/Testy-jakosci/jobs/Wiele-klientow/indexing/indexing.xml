@@ -17,8 +17,8 @@
     <completeBuild>true</completeBuild>
   </result>
   <durations>
-    <long>85</long>
+    <long>120</long>
   </durations>
-  <timestamp>1701980884409</timestamp>
-  <duration>85</duration>
+  <timestamp>1701990129857</timestamp>
+  <duration>120</duration>
 </jenkins.branch.MultiBranchProject_-BranchIndexing>
