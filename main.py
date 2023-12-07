@@ -21,7 +21,7 @@ def add_client(filename, filename2, number_of_clients):
     file2 = open(filename2, "a")
     file2.write("#!/bin/bash\n")
     for i in range(0, number_of_clients):
-        file2.write(f'docker exec vlc_test-vlc-client-{i}-1 cvlc http://192.168.0.185:8080/stream & \n')
+        file2.write(f'docker exec $CONTAINERS_DIR-vlc-client-{i}-1 cvlc http://$SERVER_IP:8080/stream & \n')
 
 
-add_client(filename="docker-compose.yml", filename2="run_cvlc", number_of_clients=50)
+add_client(filename="docker-compose.yml", filename2="run_cvlc", number_of_clients=40)
