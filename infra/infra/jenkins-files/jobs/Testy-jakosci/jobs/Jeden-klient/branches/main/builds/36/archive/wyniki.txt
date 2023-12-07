@@ -1,0 +1,7 @@
+bitrate: 128000 b/s
+sample rate: 44100 Hz 
+bit_depth: 16
+latency: 3.956 ms 
+packet loss: 1%
+jitter:    0.481  ms
+bandwidth:   38.5  Mbits/sec 

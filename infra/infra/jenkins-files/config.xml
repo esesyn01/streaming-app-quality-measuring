@@ -48,7 +48,11 @@
           <default>
             <comparator class="java.lang.String$CaseInsensitiveComparator"/>
           </default>
-          <int>1</int>
+          <int>3</int>
+          <string>CLIENT_IP</string>
+          <string>192.168.0.227</string>
+          <string>JENKINS_PATH</string>
+          <string>esty-jakosci_wiele-klientow_main</string>
           <string>SERVER_IP</string>
           <string>192.168.0.185</string>
         </tree-map>

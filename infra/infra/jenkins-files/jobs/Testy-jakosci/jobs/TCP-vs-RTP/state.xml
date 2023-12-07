@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.branch.MultiBranchProject_-State plugin="branch-api@2.1135.v8de8e7899051">
+  <sourceActions>
+    <entry>
+      <string>org.jenkinsci.plugin.gitea.GiteaSCMNavigator::http://gitea:3000::Testy-jakosci::TCP-vs-RTP</string>
+      <list>
+        <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@683.vb_16722fb_b_80b_">
+          <objectDisplayName>TCP-vs-RTP</objectDisplayName>
+          <objectDescription></objectDescription>
+          <objectUrl></objectUrl>
+        </jenkins.scm.api.metadata.ObjectMetadataAction>
+        <org.jenkinsci.plugin.gitea.GiteaLink plugin="gitea@1.4.5">
+          <iconClassName>icon-gitea-repo</iconClassName>
+          <url>http://gitea:3000/Testy-jakosci/TCP-vs-RTP</url>
+        </org.jenkinsci.plugin.gitea.GiteaLink>
+      </list>
+    </entry>
+  </sourceActions>
+</jenkins.branch.MultiBranchProject_-State>

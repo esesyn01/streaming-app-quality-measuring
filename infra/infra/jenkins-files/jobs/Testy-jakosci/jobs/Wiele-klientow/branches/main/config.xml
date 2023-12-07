@@ -1,0 +1,66 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1385.vb_58b_86ea_fff1">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2151.ve32c9d209a_3f">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <displayName>main</displayName>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@756.v891d88f2cd46">
+      <branch plugin="branch-api@2.1135.v8de8e7899051">
+        <sourceId>org.jenkinsci.plugin.gitea.GiteaSCMNavigator::http://gitea:3000::Testy-jakosci::Wiele-klientow</sourceId>
+        <head class="org.jenkinsci.plugin.gitea.BranchSCMHead" plugin="gitea@1.4.5">
+          <name>main</name>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@5.2.1">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/main:refs/remotes/origin/main</refspec>
+              <url>http://gitea:3000/Testy-jakosci/Wiele-klientow.git</url>
+              <credentialsId>gitea-jenkins</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>main</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <browser class="org.jenkinsci.plugin.gitea.GiteaBrowser" plugin="gitea@1.4.5">
+            <url>http://gitea:3000/Testy-jakosci/Wiele-klientow</url>
+          </browser>
+          <submoduleCfg class="empty-list"/>
+          <extensions>
+            <jenkins.plugins.git.GitSCMSourceDefaults>
+              <includeTags>false</includeTags>
+            </jenkins.plugins.git.GitSCMSourceDefaults>
+          </extensions>
+        </scm>
+        <properties/>
+        <actions>
+          <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@683.vb_16722fb_b_80b_">
+            <objectUrl>http://gitea:3000/Testy-jakosci/Wiele-klientow/src/branch/main</objectUrl>
+          </jenkins.scm.api.metadata.ObjectMetadataAction>
+          <org.jenkinsci.plugin.gitea.GiteaLink plugin="gitea@1.4.5">
+            <iconClassName>icon-gitea-branch</iconClassName>
+            <url>http://gitea:3000/Testy-jakosci/Wiele-klientow/src/branch/main</url>
+          </org.jenkinsci.plugin.gitea.GiteaLink>
+          <jenkins.scm.api.metadata.PrimaryInstanceMetadataAction plugin="scm-api@683.vb_16722fb_b_80b_"/>
+        </actions>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@756.v891d88f2cd46">
+    <scriptPath>Jenkinsfile</scriptPath>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

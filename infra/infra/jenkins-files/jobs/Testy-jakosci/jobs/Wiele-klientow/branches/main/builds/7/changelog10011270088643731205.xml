@@ -1,0 +1,20 @@
+commit c9a97a4ab37cf2e6278173673ec6fb95d0cb360d
+tree c1e5ac515a8445a43982bbe6c498f5cb61bb9d3b
+parent cef89087ff4b573d3fa55809cfad7e674874bc35
+author wkawka <asinesak353@gmail.com> 2023-12-07 21:48:43 +0100
+committer wkawka <asinesak353@gmail.com> 2023-12-07 21:48:43 +0100
+
+    Update Jenkinsfile
+
+
+:100644 100644 eb021783a143dfea6ccdcf0ef41eff0462482532 f46c516e9e307062dbfe50e35aee8096f231b417 M	Jenkinsfile
+commit cef89087ff4b573d3fa55809cfad7e674874bc35
+tree 7cb28d4d89e6e43b1156afaf15d1be5e0af988f2
+parent 0ecaec655d722ea306239a4bd4d4fddfe06df4c8
+author wkawka <asinesak353@gmail.com> 2023-12-07 21:47:19 +0100
+committer wkawka <asinesak353@gmail.com> 2023-12-07 21:47:19 +0100
+
+    Update run_cvlc
+
+
+:100644 100644 7ae678b7198db12b34badb5234280a9e5cf29d83 4a43ce6b22a1ea9fcbfa4f3d5be827a1929dc70a M	run_cvlc
